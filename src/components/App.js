@@ -4,10 +4,13 @@ import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import youtube from "../apis/youtube";
 
+import "./App.css";
+
 class App extends React.Component {
 
     state = {
-        videos: []
+        videos: [],
+        selectedVideo: null
     };
 
     onFormSubmit = (term) => {
@@ -20,11 +23,15 @@ class App extends React.Component {
         });
     };
 
+    onVideoSelect = (video) => {
+        console.log(video)
+    };
+
     render() {
         return (
             <div className="ui container">
-                <SearchBar onFormSubmit={this.onFormSubmit}/>
-                <VideoList videos={this.state.videos}/>
+                <SearchBar onFormSubmit={ this.onFormSubmit }/>
+                <VideoList onVideoSelect={ this.onVideoSelect } videos={this.state.videos}/>
             </div>
         );
     }

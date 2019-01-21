@@ -1,0 +1,16 @@
+.search-bar.ui.segment {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 !important;
+    z-index: 1000;
+}
+
+.ui.form {
+    text-align: center;
+}
+
+.field input {
+    width: 50% !important;
+}
