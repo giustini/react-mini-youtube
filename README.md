@@ -1,6 +1,6 @@
 # React Mini YouTube
 
-This is a very simple mini YouTube page with a search bar and a video player developed with [React](https://reactjs.org/)
+This is a very simple mini YouTube page with a search input and a video player developed with [React](https://reactjs.org/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,7 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+```
+npm start
+```
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -16,12 +18,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+```
+npm test
+```
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
+npm run build
+```
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -33,4 +39,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Live
 
-Check it out live on my Firebase Hosting [here](https://react-mini-f6cbf.firebaseapp.com/)
+Check it out live on my Firebase Hosting [here](https://react-mini-f6cbf.firebaseapp.com/).
