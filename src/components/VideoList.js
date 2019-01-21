@@ -10,11 +10,11 @@ class VideoList extends React.Component {
                 <VideoItem
                     key={ video.id.videoId }
                     onVideoSelect={ this.props.onVideoSelect }
-                    video={video}/>
+                    video={ video }/>
             );
         });
 
-        return <div className="ui relaxed divided list">{renderedVideosList}</div>;
+        return <div className="ui relaxed divided list">{ renderedVideosList }</div>;
     }
 }
 
